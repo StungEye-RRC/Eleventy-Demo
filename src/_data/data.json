@@ -1,21 +1,21 @@
 {
   "featured": [
     {
-      "image": "feature_01.png",
+      "image": "feature_01.gif",
       "imageAlt": "Feature 1 alt text.",
-      "title": "First Title",
+      "title": "Engaging C++ Simulations",
       "description": "First description of the featured item."
     },
     {
-      "image": "feature_02.png",
-      "imageAlt": "Feature 2 alt text.",
-      "title": "Second Title",
+      "image": "feature_02.gif",
+      "imageAlt": "Bouncy interconnected nodes follow a mouse pointer. Animated gif.",
+      "title": "Interactive Math for the Web",
       "description": "First description of the featured item."
     },
     {
-      "image": "feature_03.png",
+      "image": "feature_03.gif",
       "imageAlt": "Feature 3 alt text.",
-      "title": "Third Title",
+      "title": "Unreal Engine Experiments",
       "description": "First description of the featured item."
     }
   ]

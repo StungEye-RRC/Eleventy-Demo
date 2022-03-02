@@ -15,8 +15,9 @@
 
       <section>
         {% for item in data.featured %}
-        <aside>
-            <img {% if item.imageAlt %} alt="{{ item.imageAlt }}" {% endif %} src="{{ item.image }}" height="150">
+        <aside style="text-align:center">
+            <img {% if item.imageAlt %} alt="{{ item.imageAlt }}" {% endif %} src="/img/{{ item.image }}" height="150">
+            </p>
             <h3>{{ item.title }}</h3>
             <p>{{ item.description }}
         </aside>
