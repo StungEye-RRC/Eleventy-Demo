@@ -1,0 +1,22 @@
+{
+  "featured": [
+    {
+      "image": "feature_01.png",
+      "imageAlt": "Feature 1 alt text.",
+      "title": "First Title",
+      "description": "First description of the featured item."
+    },
+    {
+      "image": "feature_02.png",
+      "imageAlt": "Feature 2 alt text.",
+      "title": "Second Title",
+      "description": "First description of the featured item."
+    },
+    {
+      "image": "feature_03.png",
+      "imageAlt": "Feature 3 alt text.",
+      "title": "Third Title",
+      "description": "First description of the featured item."
+    }
+  ]
+}

@@ -1,15 +1,16 @@
 {
-  "name": "eleventysample",
-  "version": "1.0.0",
-  "description": "",
+  "name": "RRC Game Dev Portfolio Site",
+  "version": "0.0.1",
+  "description": "A template students can use to create portfolio sites hosted on Netlify.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSE",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
   }
 }
