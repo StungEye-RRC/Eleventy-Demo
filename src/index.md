@@ -1,9 +1,9 @@
 ---
 layout: layout.njk
-title: This Is My Title!!!
+title: Wally Glutton's Portfolio Site
 ---
 
-## {{ title }}
+## Second Level Header
 
 This is some text with some **bold** and _italic_ content.
 
