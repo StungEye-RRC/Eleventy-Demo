@@ -1,22 +1,25 @@
 {
+  "siteTitle": "Wally Glutton's Portfolio",
+  "homePageTagLine": "Executive summary of my skills and career aspirations.",
+
   "featured": [
     {
       "image": "feature_01.gif",
       "imageAlt": "Feature 1 alt text.",
       "title": "Engaging C++ Simulations",
-      "description": "First description of the featured item."
+      "description": "High performance modern C++ skills."
     },
     {
       "image": "feature_02.gif",
       "imageAlt": "Bouncy interconnected nodes follow a mouse pointer. Animated gif.",
       "title": "Interactive Math for the Web",
-      "description": "First description of the featured item."
+      "description": "Game math prototyping with p5.js."
     },
     {
       "image": "feature_03.gif",
       "imageAlt": "Feature 3 alt text.",
       "title": "Unreal Engine Experiments",
-      "description": "First description of the featured item."
+      "description": "Blueprint wizard with C++ mastery."
     }
   ]
 }

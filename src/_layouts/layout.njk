@@ -3,32 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>{{ data.siteTitle + " - " + title }}</title>
     <link rel="stylesheet" href="/css/mvp.css">
   </head>
   <body class="lightMode">
     <main>
-      <header>
-          <h1>Wally Glutton's Portfolio</h1>
-          <p>Executive summary of my skills and career aspirations.</p>
-      </header>
-
-      <section>
-        {% for item in data.featured %}
-        <aside style="text-align:center">
-            <img {% if item.imageAlt %} alt="{{ item.imageAlt }}" {% endif %} src="/img/{{ item.image }}" height="150">
-            </p>
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.description }}
-        </aside>
-        {% endfor %}
-      </section>
-
-      <hr>
-
-      <article>
-        {{ content | safe }}
-      </article>
-    </main>
+      {{ content | safe }}
+          </main>
   </body>
 </html>

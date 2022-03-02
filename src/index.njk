@@ -1,0 +1,29 @@
+---
+layout: layout.njk
+title: Home
+---
+
+<header>
+    <h1>{{ data.siteTitle }}</h1>
+    <p>{{ data.homePageTagLine }}</p>
+</header>
+
+<section>
+{% for item in data.featured %}
+    <aside style="text-align:center">
+        <img {% if item.imageAlt %} alt="{{ item.imageAlt }}" {% endif %} src="/img/{{ item.image }}" height="150">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+    </aside>
+{% endfor %}
+</section>
+
+<hr>
+
+<article>
+{% markdown %}
+## Second Level Header
+
+Followed by some sweet text.
+{% endmarkdown %}
+</article>
